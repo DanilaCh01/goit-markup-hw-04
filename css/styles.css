@@ -760,3 +760,76 @@ ul {
     color: var(--secondary-text-color);
 }
 
+
+.contacts .icon:hover,
+.contacts .icon:focus {
+    color: var(--hover-icon);
+    color: var(--hover-icon);
+}
+
+.contacts .icon {
+    margin-right: 10px;
+}
+
+.icon  {
+    fill: var(--primary-icon);
+}
+
+.icon:hover {
+    fill: var(--hover-icon);
+}
+
+.icon-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    margin-bottom: 30px;
+    background-color:var(--secondary-bg-color);
+}
+
+.team-icon {
+    fill: var(--primary-icon);
+}
+
+.list-1 .mail-tel-links:hover>.icon
+/*.list-1 .mail-tel-links:focus>.icon*/ {
+    fill:var(--hover-icon);
+}
+
+.team-list .team-link:hover>.team-icon,
+.team-list .team-link:focus>.team-icon {
+    fill:var(--primary-white-color);
+}
+
+.team-list .team-link:hover,
+.team-list .team-link:focus {
+    background-color: var(--hover-icon);
+}
+
+.main-4-list .main-4-link:hover>.icon,
+.main-4-list .main-4-link:focus>.icon {
+    fill: var(--hover-icon);
+}
+
+.main-4-list .main-4-item:hover,
+.main-4-list .main-4-item:focus {
+    border-color: var(--hover-icon);
+}
+
+.footer-ul-second .f-link>.icon {
+    fill:var(--primary-white-color)
+}
+
+.footer-ul-second .f-link:hover>.icon {
+    fill:var(--primary-white-color);
+}
+
+.footer-ul-second .f-link {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.footer-ul-second .f-link:hover,
+.footer-ul-second .f-link:focus {
+    background-color: var(--hover-icon);
+}
